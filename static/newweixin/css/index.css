@@ -1,0 +1,230 @@
+.uc-user-photo img {
+	border-radius: 5px;
+}
+
+.uc-user-photo .user-top {
+	position: absolute;
+	top: 40px;
+	left: 45px;
+	background: #c613e1;
+	color: #ffffff;
+	font-size: 10px;
+	padding: 2px;
+	border-radius: 15px;
+}
+
+.adddiv {
+	max-width: 50%;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.ltdiv {
+	max-width: 20%;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.adddiv .addfans {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 5px;
+	background: #0E8801;
+	display: inline-block;
+	border-radius: 3px;
+	display: inline-block;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #fff;
+	padding: 0 2px;
+}
+.ltdiv .ltfans {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 5px;
+	background: #c613e1;
+	display: inline-block;
+	border-radius: 3px;
+	display: inline-block;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #fff;
+	padding: 0 2px;
+}
+
+#loading {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	background: url(<?php echo base_url(); ?> static
+	/weixin/images/loading.gif) center no-repeat;
+	background-color: rgba(255, 255, 255, 0.3);
+	background-size: 26px 26px;
+	margin-bottom: 50px;
+	margin-top: -46px;
+	float: left;
+	display: none
+}
+
+#showcode {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	display: none
+}
+
+#showcode .imgshow {
+	width: 80%;
+	margin: 40px auto
+}
+
+#showcode .imgshow img {
+	width: 100%;
+	max-height: 100%;
+	border-radius: 6px 6px 0 0
+}
+
+#showcode .imgshow .close {
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	position: relative
+}
+
+#showcode .imgshow .close a {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	right: -5px;
+	top: 10px
+}
+
+#showcode .fontcss {
+	width: 100%;
+	height: 45px;
+	border-radius: 0 0 6px 6px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 16px;
+	box-shadow: 0 0 3px #fff
+}
+.home,.view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.view {
+	left: 100%;
+	background: #fff;
+	z-index: 2;
+	height: 0;
+	width: 0;
+}
+
+.weui_progress_inner_bar {
+	transition: all .3s;
+}
+
+.hd {
+	padding: 2em 0
+}
+
+.page {
+	height: 100%;
+}
+
+.page_desc {
+	text-align: center;
+	color: #888;
+	font-size: 14px
+}
+
+.bd.spacing {
+	padding: 0 15px
+}
+
+.page_title {
+	text-align: center;
+	font-size: 34px;
+	color: #3cc51f;
+	font-weight: 400;
+	margin: 0 15%
+}
+
+.weui_media_appmsg .ckright {
+	float: right;
+}
+
+.ui-badge-wrap {
+	position: relative;
+}
+
+.ui-badge-corner {
+	position: absolute;
+	border: 2px #fff solid;
+	height: 20px;
+	line-height: 20px;
+	top: -4px;
+	right: -9px;
+}
+
+.ui-badge-corner {
+	display: inline-block;
+	text-align: center;
+	background: #f74c31;
+	color: #fff;
+	font-size: 11px;
+	height: 16px;
+	line-height: 16px;
+	-webkit-border-radius: 8px;
+	padding: 0 6px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+.ui-label-list {
+	margin: 0 10px;
+}
+
+.ui-label-s {
+	font-size: 11px;
+	line-height: 13px;
+	display: inline-block;
+	position: relative;
+	padding: 0 1px;
+	color: #ff7f0d;
+	border: 1px solid #ff7f0d;
+	border-radius: 2px;
+}
+
+.ui-label-s:after {
+	position: absolute;
+	top: -5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+}

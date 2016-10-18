@@ -1,0 +1,234 @@
+
+* {
+    word-wrap: break-word;
+}
+.pn, .tb .o, .tb .o a {
+    background-image: url("pn.png");
+}
+
+#calendar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 0.8em;
+    padding: 5px;
+    text-align: left;
+}
+#calendar td {
+    font-weight: 700;
+    padding: 2px;
+}
+#calendar_week td {
+    border-bottom: 1px solid #C2D5E3;
+    height: 2em;
+    line-height: 2em;
+}
+#calendar_week a {
+    color: #336699;
+}
+#hourminute td {
+    border-top: 1px solid #C2D5E3;
+    padding: 4px 2px;
+}
+
+.calendar_expire, .calendar_expire a:link, .calendar_expire a:visited {
+    color: #666666;
+    font-weight: normal;
+}
+.calendar_default, .calendar_default a:link, .calendar_default a:visited {
+    color: #336699;
+}
+.calendar_checked, .calendar_checked a:link, .calendar_checked a:visited {
+    color: #F26C4F;
+    font-weight: bold;
+}
+td.calendar_checked, span.calendar_checked {
+    background: none repeat scroll 0 0 #C2D5E3;
+}
+.calendar_today, .calendar_today a:link, .calendar_today a:visited {
+    color: #444444;
+    font-weight: bold;
+}
+#calendar_header td {
+    border-bottom: 1px solid #C2D5E3;
+    font-weight: normal;
+    height: 20px;
+    width: 30px;
+}
+#calendar_year {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    line-height: 130%;
+    position: absolute;
+    z-index: 10;
+}
+#calendar_year .col {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C2D5E3;
+    float: left;
+    margin-left: 1px;
+    padding: 4px;
+}
+#calendar_month {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    display: none;
+    line-height: 130%;
+    padding: 4px;
+    position: absolute;
+    z-index: 11;
+}
+
+
+
+
+.cl:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.bmn,.pg a,.pgb a,.pg strong,.card,.card .o,div.exfm {
+	border-color: #FFCCCC;
+}
+
+.bmn,.bm_h,td.pls,.ad td.plc,div.exfm,.tb a,.tb_h,.ttp li.a a,div.uo a,input#addsubmit_btn,#gh .bm .bm_h
+	{
+	background-color: #FFECEC;
+}
+
+.exfm {
+	background: none repeat scroll 0 0 #E5EDF2;
+	border: 1px dashed #C2D5E3;
+	margin: 10px 0;
+	padding: 10px 14px;
+}
+
+.sinf {
+	border-right: 1px dashed #CCCCCC;
+	float: left;
+	padding-right: 14px;
+	width: 380px;
+}
+
+.sinf dl,.sadd dl {
+	overflow: hidden;
+}
+
+.sinf dl dd {
+	width: 300px;
+}
+
+.sinf dl dd,.sadd dl dd {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.ftid {
+	float: left;
+	margin-right: 6px;
+}
+
+.ftid select {
+	width: 138px;
+}
+
+.ftid select {
+	float: left;
+	height: 23px;
+}
+.ftid option {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px;
+}
+.ps,select {
+	padding: 2px 2px 2px 1px;
+}
+
+.px,.pt,.ps,select {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.mtn {
+	margin-top: 5px !important;
+}
+
+.z {
+	float: left;
+}
+.dopt {
+	
+}
+.dopt input {
+	float: left;
+}
+
+.px {
+	height: 17px;
+}
+
+.px,.pt {
+	line-height: 17px;
+	padding: 2px 4px;
+}
+
+.vm {
+	vertical-align: middle;
+}
+
+.ftid a {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url("newarow.gif") no-repeat scroll 100% 0 #FFFFFF;
+	border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	color: #444444 !important;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	padding: 0 17px 0 4px;
+	text-decoration: none !important;
+}
+
+.sinf dl dt,.sadd dl dt {
+	clear: left;
+	float: left;
+	width: 75px;
+}
+
+.sadd {
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+	width: 500px;
+}
+
+
+
+
+
+#calendars {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 0.8em;
+    padding: 5px;
+    text-align: left;
+	width:358px;
+}
